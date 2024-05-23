@@ -48,7 +48,7 @@ body {
 }
 .changecontent::after{
     content: ' ';
-    color:#795339;
+    color:#976d51;
     animation: changetext 10s infinite linear;
     font-weight:bold;
 }
