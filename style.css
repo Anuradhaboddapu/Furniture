@@ -9,7 +9,7 @@ body {
     align-items: center; 
     background-color:whitesmoke;
     padding: 10px 20px;
-    height:10vh;
+    height:70px;
     position: sticky;
     top:0;
 }
@@ -31,7 +31,7 @@ body {
     color:#7f5539 ;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
-.main-content{
+.main-contant{
     width:100%;
     height:90vh;
     background-image: url("image/backgroundimage.jpg");
@@ -39,31 +39,23 @@ body {
     background-position: 100%;
     color: white;
 }
-.content{
-    margin-left: 75px;
-    justify-content: flex-start;
-}
-.content h1{
-    padding-top: 150px;
-    font-size:50px;
+.main-contant #contant{
+    margin-top: 30px;
 }
 @media screen {
     
 }
-/* #btn1{
-    width:100px;
-    height:32px;
-    background:black;
-    border: 1px solid black;
-    letter-spacing: 3px;
+.nav-item a{
     font-weight: bold;
-    cursor: pointer;
-} */
+}
+.nav-item a:hover{
+    color:#7f5539;
+    text-shadow: 2px 2px 5px #986e51;
+}
 #btn1 button:hover{
     background-color: green;
 }
 #main2{
-    padding-top:10px;
     text-align: center;
 }
 #main2 .image img {
@@ -83,12 +75,16 @@ body {
     font-weight: bold;
     cursor: pointer;
 }
+#main2 h3{
+    color:#7f5539;
+    margin-top: 10px;
+}
 
+#main3 h3{
+    color:#7f5539;
+}
 
 #main3{
-    margin-left: 50px;
-    margin-right: 50px;
-    padding-top:10px;
     text-align: center;
 }
 #main3 .image img {
@@ -111,8 +107,6 @@ body {
 
 
 #main4{
-    margin-left:100px;
-    margin-right: 100px;
     text-align: center;
 }
 #main4 .image img {
@@ -121,15 +115,26 @@ body {
     background-position: center;
 }
 #main4 h3{
+    color:#7f5539;
     margin-top: 20px;
 }
-
-#main5{
-    margin:70px;
-    
+#main5 .image img{
+    width:100%;
+    height:250px;
+ }
+ #main5 {
+    text-align:center;
+ }
+ #main5 h3{
+    color:#7f5539;
+}
+#main6 h3{
+    color:#7f5539;
+}
+#main6{  
     text-align: center;
 }
-#main5 .image img {
+#main6 .image img {
     width:100%;
     height:100%;
     background-position: center;
@@ -150,3 +155,4 @@ footer h1{
     font-size: 30px;
     cursor: pointer;
 }
+
