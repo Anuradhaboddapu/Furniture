@@ -107,6 +107,7 @@ text-shadow: 2px 2px 5px #967863;
 }
 
 #main3 h3{
+    padding-top: 10px;
     color:#7f5539;
 }
 
@@ -114,6 +115,7 @@ text-shadow: 2px 2px 5px #967863;
     text-align: center;
     background-color: #faedcd;
     justify-content: center;
+    padding: 10px;
 }
 #main3 .image img {
     width:100%;
