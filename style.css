@@ -113,6 +113,7 @@ text-shadow: 2px 2px 5px #967863;
 #main3{
     text-align: center;
     background-color: #faedcd;
+    justify-content: center;
 }
 #main3 .image img {
     width:100%;
