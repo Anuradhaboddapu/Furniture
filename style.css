@@ -87,13 +87,19 @@ body {
     padding: 10px;
 }
 .btn{
-    width:200px;
+    width:150px;
     height:32px;
     background-color:#7f5539;
     border: 1px solid black;
     letter-spacing: 3px;
     font-weight: bold;
     cursor: pointer;
+}
+.btn:hover{
+border-color: burlywood;
+background-color: #7f5539;
+color: #fefae0;
+text-shadow: 2px 2px 5px #967863;
 }
 #main2 h3{
     color:#7f5539;
