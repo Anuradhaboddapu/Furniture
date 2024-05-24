@@ -49,7 +49,7 @@ body {
 .changecontent::after{
     content: ' ';
     color:#976d51;
-    animation: changetext 6s infinite linear;
+    animation: changetext 8s infinite linear;
     font-weight:bold;
 }
 @keyframes changetext{
